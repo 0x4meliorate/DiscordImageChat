@@ -30,9 +30,7 @@ async def StegoChat(channelid):
             await channel.send(normal)
         else:
             img = Image.open("black.jpg")
-            pointsize = 30
             fillcolor = "white"
-            shadowcolor = "black"
             font = ImageFont.truetype('Roboto-Bold.ttf', size=100)
             draw = ImageDraw.Draw(img)
 
