@@ -45,7 +45,7 @@ async def StegoChat(channelid):
             w = 1920
             h = 1080
 
-            area = img.crop((0, 30, w, h-980+height))
+            area = img.crop((0, 30, w, h-920+height))
 
             fname2 = "temp.png"
             area.save(fname2)
