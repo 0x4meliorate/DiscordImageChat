@@ -1,6 +1,6 @@
 # Discord Image Chat
 
-This script allows you to send text messages in images.  
+This script allows you to send text messages as images.  
 Which are then uploaded to the Discord chat.  
 
 Just run chat.py with python.  
