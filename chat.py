@@ -23,7 +23,7 @@ async def on_message(message):
 async def StegoChat(channelid):
     channel = client.get_channel(channelid)
     while(True):
-        text = input("Chat: ")
+        text = input("-> ")
         if text.startswith("*"):
             normal = text[1:]
             await channel.send(normal)
