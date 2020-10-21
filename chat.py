@@ -27,8 +27,6 @@ async def StegoChat(channelid):
         if text.startswith("*"):
             normal = text[1:]
             await channel.send(normal)
-        elif text == "":
-            print("x")
         else:
             img = Image.open("black.jpg")
             pointsize = 30
