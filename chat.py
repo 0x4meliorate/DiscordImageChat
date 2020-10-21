@@ -3,6 +3,7 @@ import time
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 import asyncio
+import os
 
 client = discord.Client()
 
